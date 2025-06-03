@@ -3,6 +3,6 @@ services:
   php:
     image: php:7.4-apache
     volumes:
-      - "d:/git-franco/dockerphp:/var/www/html"
+      - ".:/var/www/html"
     ports:
       - "8080:80"
